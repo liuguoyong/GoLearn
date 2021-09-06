@@ -33,11 +33,15 @@ func main() {
 	fmt.Println(n1, n2, n3, n4)
 
 	//第五种，同时声明多个多类型变量
-	var n5, n6, n7 = 100, "tom", "888"
+	var n5, n6, n7 = 100, "tom", 888
 	fmt.Println(n5, n6, n7)
 
 	//第六种 一次性声明多个变量
 	a1, a2, a3 := 100, "tom", "888"
 	fmt.Println(a1, a2, a3)
 
+	//运算
+	fmt.Println(n5 + n7) //数字是加法运算
+	//fmt.Println(n5+n6) //不同数据类型不能运算
+	fmt.Println(n6 + a2) //字符串是拼接
 }
