@@ -44,4 +44,6 @@ func main() {
 	fmt.Println(n5 + n7) //数字是加法运算
 	//fmt.Println(n5+n6) //不同数据类型不能运算
 	fmt.Println(n6 + a2) //字符串是拼接
+
+	//P37
 }
