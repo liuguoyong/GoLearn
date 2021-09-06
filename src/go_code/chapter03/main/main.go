@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("i=", i)
 
 	var str string
-	fmt.Println(str) //string默认是空串
+	fmt.Println(str) //string默认是空串  ""
 	var a float32
 	fmt.Println(a) //float默认值是0
 
@@ -70,7 +70,7 @@ func main() {
 	var a4 int = '背'
 	fmt.Printf("ca4=%c  a4=%d\n", a4, a4)
 
-	var b = false
+	var b = false //默认值是false
 	fmt.Println(b)
 	fmt.Println(unsafe.Sizeof(b))
 	var sss = "defsv\nfsdvs"
